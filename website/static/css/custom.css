@@ -14,3 +14,9 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+.project-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

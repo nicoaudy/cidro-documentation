@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: "Cidro UI", // Title for your website.
-  tagline: "Customizeable UI Library with 🌶️ taste.",
+  tagline: "React Native UI Library",
   url: "https://your-docusaurus-test-site.com", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "intro", label: "Docs" },
-    { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    { doc: "intro", label: "Docs" }
+    // { page: "help", label: "Help" }
+    // { blog: true, label: "Blog" }
   ],
 
   // If you have users set above, you add it here:
@@ -53,8 +53,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: "#5d8a58",
-    secondaryColor: "#41603d"
+    primaryColor: "#FF4785",
+    secondaryColor: "lightpink"
   },
 
   /* Custom fonts for website */
@@ -72,11 +72,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} NicoAudy`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: "default"
+    theme: "dracula"
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -89,7 +89,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg"
+  twitterImage: "img/undraw_tweetstorm.svg",
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
@@ -103,7 +103,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: "https://github.com/nicoaudy/cidro-ui"
 };
 
 module.exports = siteConfig;
