@@ -1,6 +1,6 @@
 {
   "docs": {
     "Intro": ["intro", "install"],
-    "Components": ["block", "toolbar", "button", "text", "form", "input"]
+    "Components": ["block", "toolbar", "button", "text", "form", "input", "avatar", "avatar_text"]
   }
 }
