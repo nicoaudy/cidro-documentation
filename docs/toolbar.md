@@ -25,6 +25,9 @@ const App = () => (
 
 | Property     |   Type    | Default  | Description                                                                   |
 | ------------ | :-------: | :------: | ----------------------------------------------------------------------------- |
+| color        |  string   |   null   | change color                                                                  |
+| noShadow     |  boolean  |  false   | toolbar without shadow                                                        |
+| height       |  number   |    52    | change height                                                                 |
 | left         | component |   null   | set your own component (eg: Text or Icon)                                     |
 | leftHandler  | function  | () => {} | Take an arrow function and everytime the user presses the function is called. |
 | center       | component |   null   | set your own component                                                        |
